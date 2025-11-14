@@ -1,0 +1,43 @@
+### Features of calculator.py
+  1. Supports basic arithmetic operations
+         -> Addition (+)
+         -> Subtraction (-)
+         -> Multiplication (*)
+         -> Division (/)
+
+  2. User input from the command line
+         The calculator accepts:
+         -> First number
+         -> Operation
+         -> Second number
+         -> All through standard input (input()).
+
+  3. Error handling
+         -> Prevents division by zero (shows: “Cannot divide by zero”)
+         -> Handles invalid numeric input (ValueError)
+
+  4. Clean and modular code
+        Each operation is defined as its own function:
+         -> add()
+         -> subtract()
+         -> multiply()
+         -> divide()
+         -> This helps in readability, reusability, and makes future expansion easy.
+
+   5. Friendly interface
+         Displays: 
+        -> A title
+        -> Available operations
+        -> Clear prompts for user input
+        -> A simple formatted output:
+           Example → Result: 15.0
+
+    6. Cross-platform 
+        Runs on:
+         -> Windows
+         -> Linux
+         -> macOS
+         Anywhere Python is installed.
+
+
+
